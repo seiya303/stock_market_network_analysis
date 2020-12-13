@@ -1,3 +1,16 @@
+../data3
+# This directory is for storing the stock data fetched from Kioom Securities
+
+# Each directory name represents the kind of industry,
+   and each directory contains 10 stock data with (stock code).csv
+   (some directory has less than 10 stock data because of capasity of the securities)
+
+# each stock data contains open, high, low, close price, moving average of close price of 5, 10, 20, 60, 120 days,
+   total chart pattern, amount of trade, moving average of amount of trade of 5, 20, 60, 120days from 2018-06-26
+   to 2020-11-30
+
+
+../net
 # This directory is for storing the network file generated from stock_analysis.ipynb
 
 # AC means After-Corona : BC means Before-Corona
