@@ -1,1 +1,1 @@
-# twitter_analysis
+# stock market analysis using social network
