@@ -1,0 +1,15 @@
+# This directory is for storing the network file generated from stock_analysis.ipynb
+
+# AC means After-Corona : BC means Before-Corona
+
+# Positive: Delete all the edges which contain non-positive weights(Correlation)
+
+# Negative: Delete all the edges which contain non-negative weights(Correlation)
+
+# -0.1 ~ 0.97: threshold for the correlation
+  If positive:
+    Delete the edges of weights, lower than the threshold value and 1(self-correlation)
+  Else if negative:
+    Delete the edges of weights, higher than the threshold value
+    
+# Open these files in Gephi or Pajek
